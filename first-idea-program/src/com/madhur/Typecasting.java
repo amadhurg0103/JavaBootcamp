@@ -22,5 +22,16 @@ public class Typecasting {
         System.out.println(d);
         int number='A';
         System.out.println(number);
+        System.out.println(3*5.2);//double
+        System.out.println(8*5.8f);//float
+        byte b5=42;
+        char c8='a';
+        short s=1024;
+        int i=5000;
+        float f=5.67f;
+        double d7=0.1234;
+        double result=(f*b5)+(i/c8)-(d7*s);
+        System.out.println((f*b5) + " " + (i/c8) + " " + (d7*s));
+        System.out.println(result);
     }
 }
